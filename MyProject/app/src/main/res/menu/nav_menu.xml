@@ -13,12 +13,7 @@
     </item>
     <item android:title="Secondary">
         <menu>
-            <item android:title="Contact us"
-                android:id="@+id/contact_item"
-                />
-            <item android:title="Feedback"
-                android:id="@+id/feedback_item"
-                />
+
             <item android:title="Sign out"
                 android:id="@+id/signOut_item"
                 />

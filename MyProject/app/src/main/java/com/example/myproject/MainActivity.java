@@ -8,6 +8,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
@@ -64,6 +66,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         };
     }
+    //create Menu
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.toolbar_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
 
     //First of all, check user signed in or not
     @Override
@@ -79,6 +90,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.signOut_item:
                 signOutMethod();
+                break;
+
+            case R.id.mGroup_item:
+                Intent mGroupIntent = new Intent(MainActivity.this, ManageGroupActivity.class);
+                mGroupIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(mGroupIntent);
         }
         return false;
     }
