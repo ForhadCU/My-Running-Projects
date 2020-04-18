@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Primary">
+        <menu>
+            <item android:title="HOME"
+                android:id="@+id/home_item"/>
+            <!--                android:icon=""-->
+
+            <item android:title="Manage Groups"
+                android:id="@+id/mGroup_item"
+                />
+        </menu>
+    </item>
+    <item android:title="Secondary">
+        <menu>
+            <item android:title="Contact us"
+                android:id="@+id/contact_item"
+                />
+            <item android:title="Feedback"
+                android:id="@+id/feedback_item"
+                />
+            <item android:title="SignInActivity"
+                android:id="@+id/login_item"
+                />
+        </menu>
+    </item>
+</menu>
