@@ -19,8 +19,8 @@
             <item android:title="Feedback"
                 android:id="@+id/feedback_item"
                 />
-            <item android:title="SignInActivity"
-                android:id="@+id/login_item"
+            <item android:title="Sign out"
+                android:id="@+id/signOut_item"
                 />
         </menu>
     </item>

@@ -76,11 +76,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId())
         {
-            case R.id.login_item:
-                Intent signInIntent = new Intent(MainActivity.this, SignInActivity.class);
-                signInIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(signInIntent);
-                break;
+
             case R.id.signOut_item:
                 signOutMethod();
         }

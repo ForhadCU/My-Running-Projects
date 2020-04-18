@@ -40,7 +40,7 @@
         android:ems="10"
         android:fontFamily="serif"
         android:hint="@string/enter_password"
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
         android:textColor="@color/light_blue"
