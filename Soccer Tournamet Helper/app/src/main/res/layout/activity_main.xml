@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainActivity"
+    tools:context=".MainActivity">
+
+<!--
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif"
+        android:textColor="#7C0091EA"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-107dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/player_pic2" />
+
+    <Button
+        android:id="@+id/btnLeagueID"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/gradient2"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="League"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnTournamentsID"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnLeagueID"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gradient2"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Tournament"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnHelpID"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnTournamentsID"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gradient2"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Help &amp; feedback"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnAboutID"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnHelpID"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gradient2"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="About"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnExitID"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnAboutID"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gradient2"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imv_id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="-77dp"
+        android:src="@drawable/spectators1" />
+
+</RelativeLayout>

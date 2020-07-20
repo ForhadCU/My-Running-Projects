@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_back"
+    tools:context=".TournamentsActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:id="@+id/lvTournamentListID"
+        android:dividerHeight="5dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:divider="@color/app_back"
+        >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvEmptyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="367dp"
+        android:layout_marginBottom="345dp"
+        android:text="No record found!"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/darkWhite_text" />
+    <ImageView
+        android:id="@+id/imv_id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="-77dp"
+        android:src="@drawable/spectators1" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323036"
+    tools:context=".EntryPage2Activity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewTitleID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#3A393C"
+            android:padding="7dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="MatchDay Entry"
+                android:textAllCaps="false"
+                android:textColor="#33FCFBFC"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardViewTitleID"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Match Play : "
+        android:textColor="@color/lightWhite_text"
+        android:textColorHint="@color/darkWhite_text" />
+
+    <EditText
+        android:id="@+id/matchPlayEditTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/cardViewTitleID"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/textView1"
+        android:background="@drawable/name_edittext_style"
+        android:ems="4"
+        android:hint="MP"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/edit_text"
+        android:textColorHint="@color/darkWhite_text"
+        android:textSize="12sp"
+        tools:textColor="@color/edit_text" />
+
+    <Spinner
+        android:id="@+id/spinnerTeamListID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/matchPlayEditTextID"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupID"
+        android:layout_below="@+id/spinnerTeamListID"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonWinID"
+            android:text="WIN"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#F364DD17"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonLossID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOSS"
+            android:textAllCaps="true"
+            android:textColor="#D50000"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDrawID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DRAW"
+            android:textAllCaps="true"
+            android:textColor="#00BFA5"
+            android:textStyle="normal"
+            android:typeface="serif" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupID"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="87dp"
+        android:text="Goal For : "
+        android:textColor="@color/lightWhite_text"
+        android:textColorHint="@color/darkWhite_text" />
+
+    <EditText
+        android:id="@+id/gfEditTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/radioGroupID"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="84dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@drawable/name_edittext_style"
+        android:ems="4"
+        android:hint="GF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/edit_text"
+        android:textColorHint="@color/darkWhite_text"
+        android:textSize="12sp"
+        tools:textColor="@color/edit_text" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:text="Goal Against : "
+        android:textColor="@color/lightWhite_text"
+        android:textColorHint="@color/darkWhite_text" />
+
+    <EditText
+        android:id="@+id/gaEditTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:background="@drawable/name_edittext_style"
+        android:ems="4"
+        android:hint="GA"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/edit_text"
+        android:textColorHint="@color/darkWhite_text"
+        android:textSize="12sp"
+        tools:textColor="@color/edit_text" />
+
+    <Button
+        android:id="@+id/btnSaveResultID"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/add_btn_style"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/lightWhite_text" />
+
+   <!-- <Button
+        android:id="@+id/btnBackID2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/add_btn_style_2"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />-->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/player_ic4" />
+
+
+</RelativeLayout>

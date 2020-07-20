@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.soccertournamethelper.TournamentsActivity">
+
+    <item
+        android:title="@string/add"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_add_recordID"
+        android:title="Create new tournament"
+        android:icon="@drawable/ic_menu_add"
+        android:iconTint="#00B8D4"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+</menu>

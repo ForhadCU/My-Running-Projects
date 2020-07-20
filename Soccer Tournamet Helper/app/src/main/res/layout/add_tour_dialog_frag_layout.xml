@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="2dp"
+    android:background="#00BFA5"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_dark_background"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewTitleID2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/cardview_dark_background">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Add New Tournament"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/darkWhite_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardViewTitleID2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Tournament Name :"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/lightWhite_text"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tourNameEditTxtID"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/textView1"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/name_edittext_style"
+                android:hint="Enter Tournament name"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:textColor="@color/edit_text"
+                android:textColorHint="@color/darkWhite_text"
+                android:textSize="14sp">
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tourNameEditTxtID"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Tournament ID :"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/lightWhite_text"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tourUIDEditTxtID"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/name_edittext_style"
+                android:hint="Enter User ID"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:textColor="@color/edit_text"
+                android:textColorHint="@color/darkWhite_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tourUIDEditTxtID"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Number of teams :"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/lightWhite_text" />
+
+            <EditText
+                android:id="@+id/teamNumberEditTextID"
+                android:layout_width="88dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/name_edittext_style"
+                android:hint="Total teams"
+                android:inputType="number"
+                android:paddingStart="10dp"
+                android:textColor="@color/edit_text"
+                android:textColorHint="@color/darkWhite_text"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/teamNumberEditTextID"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Choose Winner Point :"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/lightWhite_text" />
+
+            <EditText
+                android:id="@+id/winPointEditTextID"
+                android:layout_width="88dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/name_edittext_style"
+                android:hint="points/match"
+                android:inputType="number"
+                android:paddingStart="10dp"
+                android:textColor="@color/edit_text"
+                android:textColorHint="@color/darkWhite_text"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/winPointEditTextID"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Choose Draw Point :"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/lightWhite_text" />
+
+            <EditText
+                android:id="@+id/drawPointEditTxtID"
+                android:layout_width="88dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/name_edittext_style"
+                android:hint="points/match"
+                android:inputType="number"
+                android:paddingStart="10dp"
+                android:textColor="@color/edit_text"
+                android:textColorHint="@color/darkWhite_text"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/tourCreateDoneButtonID"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/drawPointEditTxtID"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/add_btn_style"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnBackID"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/drawPointEditTxtID"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/add_btn_style_2"
+                android:text="Discard"
+                android:textAllCaps="false"
+                android:textColor="@color/lightWhite_text" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "817473691056",
+    "firebase_url": "https://soccer-tournamet-helper.firebaseio.com",
+    "project_id": "soccer-tournamet-helper",
+    "storage_bucket": "soccer-tournamet-helper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817473691056:android:20af430d96482712efca75",
+        "android_client_info": {
+          "package_name": "com.example.soccertournamethelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817473691056-hlhroe9co6n917dhd3g7niip9r1940kr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soccertournamethelper",
+            "certificate_hash": "c9c6afdfedac6d114f106407d17cbdd43f6d77ab"
+          }
+        },
+        {
+          "client_id": "817473691056-7iqjunnqjc7huga01qjf3pj5qkdu8752.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgsSX7y0AL1WdGxZzI1jzzSwvV6QiJlxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817473691056-7iqjunnqjc7huga01qjf3pj5qkdu8752.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

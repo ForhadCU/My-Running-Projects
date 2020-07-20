@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#26252B</color>
+    <color name="colorPrimaryDark">#26252B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="darkWhite_text">#80FFFFFF</color>
+    <color name="lightWhite_text">#EAFFFFFF</color>
+    <color name="edit_text">#0091EA</color>
+    <color name="app_back">#323036</color>
+    <color name="rv_tour_list_color">#800091EA</color>    <color name="white">#FFFFFF</color>
+    <color name="blue_launcher">#2196F3</color>
+    <color name="colorPrimary1">#2a7ee6</color>
+    <color name="colorPrimaryDark1">#76a5df</color>
+    <color name="colorAccent1">#ffff8800</color>
+    <color name="zircon">#e0e6e4</color>
+    <color name="mainActivity">#000000</color>
+
+</resources>
