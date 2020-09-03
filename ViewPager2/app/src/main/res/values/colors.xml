@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232325</color>
+    <color name="colorSecondary">#1F1F20</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="textColor">#DADADA</color>
+</resources>
+
+
+<!--
+<resources>
+<color name="colorPrimary">#37474f</color>
+<color name="colorSecondary">#363636</color>
+<color name="colorNav">#3D3D3D</color>
+<color name="colorAccent">#D81B60</color>
+<color name="colorWhite">#FFFFFF</color>
+</resources>-->
